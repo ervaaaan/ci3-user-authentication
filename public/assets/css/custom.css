@@ -1,0 +1,118 @@
+/**
+ * @author	    Merlinbox Digital Solution
+ * @link		https://merlinbox.com
+ */
+
+body {
+    background: linear-gradient(rgba(21, 61, 76, 0.05),rgba(21, 61, 76, 0.05)), url(../img/body-bg/diagonal-noise.webp);
+    background-attachment: fixed;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.mat-shadow {
+    box-shadow: 0 2px 10px rgba(0,0,0,.25);
+}
+
+.note-editor.note-frame .note-statusbar .note-resizebar {
+    padding-bottom: 16px!important;
+    margin-top: -14px!important;
+}
+
+.dropzone .dz-message {
+    opacity: 0.2;
+    position: absolute;
+    left: 30%;
+    width: 40%;
+    font-weight: 500!important;
+    color: #242a30!important;
+    font-size: 24px!important;
+    margin: 57px 0!important;
+}
+
+::-webkit-input-placeholder {
+    opacity: 0.8!important;
+}
+
+::-moz-placeholder {
+    opacity: 0.8!important;
+}
+
+:-ms-input-placeholder {
+    opacity: 0.8!important;
+}
+
+::-ms-input-placeholder {
+    opacity: 0.8!important;
+}
+
+::placeholder {
+    opacity: 0.8!important;
+}
+
+.right-content-bg {
+    position: fixed;
+    width: 500px;
+    height: 100%;
+    right: 0;
+    z-index: -1;
+    background: #ffffffd9;
+    box-shadow: 1px 2px 8px rgba(91, 94, 97, 0.58);
+}
+
+.login-cover-bg {
+    background: rgba(255, 255, 255, 0.11) !important;
+}
+
+.login-v2-bg {
+    position: fixed;
+    width: 450px;
+    height: 100%;
+    right: 0;
+    background: #ffffffd9;
+    box-shadow: 1px 2px 8px rgba(91, 94, 97, 0.58);
+}
+
+.login.login-v2 {
+    margin: 0 !important;
+    color: #ccc;
+    width: 450px;
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    border-radius: 0px;
+}
+
+.login.login-v2 .form-control {
+    background: rgba(222, 226, 230, 0.45) !important;
+    color: #333 !important;
+}
+
+.checkbox.checkbox-css label:before {
+    border-radius: 4px;
+    background: #8598ab2e !important;
+}
+
+.login.login-v2 .login-header .brand small {
+    color: rgb(54, 51, 126) !important;
+}
+
+.login.login-v2 .copyrite {
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.header .navbar-brand {
+    width: 250px !important;
+    margin-right: 15px !important;
+}
+
+.header .navbar-nav>li>a.has-btn:focus, .header .navbar-nav>li>a.has-btn:hover {
+    opacity: 1 !important;
+}

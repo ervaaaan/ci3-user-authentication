@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i");
+
+body {
+    color: #345;
+}
+h1,
+.entry-title {
+    font-family: "Playfair Display", serif;
+}
+.card-intro h1 {
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+/* Heading 1 Font Weight */
+h1,
+.entry-title {
+    font-weight: 400;
+}
+
+/* Heading 1 Font Size */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 54px;
+    }
+}
+
+/* Intro Text Font Size */
+@media only screen and (min-width: 992px) {
+    .card-intro p {
+        font-size: 22px;
+    }
+}
+
+/* Grid Title Font Weight */
+.media-grid h3 {
+    font-weight: 400;
+}
+
+/* Grid Title Font Size */
+@media screen and (min-width: 768px) {
+    .media-grid h3 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 320px) {
+    .button.danger.logout {
+        top: 10px !important;
+    }
+}
+
+/* Card Image Mask Color */
+.cover:after,
+.card-3d-right-side:after,
+.card-3d-bottom-side:after,
+.header:before {
+    background: #4c4c37;
+}
+
+/* PRIMARY COLOR */
+.pagination a:hover,
+a.more-link:hover,
+.event:nth-of-type(2):after,
+.portfolio-nav a:hover,
+.skill-unit .bar .progress,
+#nprogress .bar {
+    background-color: #4d84e2;
+}
+.bypostauthor > article,
+.event h3,
+input:not([type="submit"]):not([type="button"]):not([type="file"]):not([type="radio"]):not([type="checkbox"]):focus,
+textarea:focus,
+input:focus,
+select:focus,
+.tabs .tab-titles li a.active {
+    border-color: #4d84e2;
+}
+.event h3,
+.entry-title a:hover {
+    color: #4d84e2;
+}
+#nprogress .spinner-icon {
+    border-top-color: #4d84e2;
+    border-left-color: #4d84e2;
+}
+
+/* Primary Button Color */
+input[type="submit"],
+input[type="button"],
+button,
+.button {
+    color: #44a7ff;
+    border-color: #44a7ff;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:not(.button):hover,
+.button:after {
+    background: #44a7ff;
+}
+
+/* Secondary Button Color */
+.button.secondary {
+    color: #44a7ff;
+    border-color: #44a7ff;
+}
+.button.secondary:after {
+    background: #44a7ff;
+}
+
+/* Danger Button Color */
+.button.danger {
+    color: #da4f62;
+    border-color: #da4f62;
+}
+.button.danger:after {
+    background: #da4f62;
+}
+.button.danger.logout {
+    position: absolute;
+    z-index: 6;
+    right: 7px;
+    top: 20px;
+    padding: 6px 10px;
+    border-radius: 32px;
+    line-height: 1;
+}
+
+/* Section Title Underline Color */
+.section-title h2 i,
+.cat-links a,
+.filters li a:hover,
+.filters .current > a {
+    box-shadow: inset 0 -6px 0px #68b4f7;
+}
+
+/* Menu Selected Item Color */
+.card-nav li.current_page_item a {
+    color: #80c3ff;
+}
+
+/* Card Title Background Color */
+.card-info h2 {
+    background: #44a7ff;
+}

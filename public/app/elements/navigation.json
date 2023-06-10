@@ -1,0 +1,51 @@
+[{
+    "title": "main_navigation",
+    "href": "#",
+    "param": "",
+    "target": "",
+    "id": "nav-header",
+    "class": "nav-header",
+    "icon": "",
+    "roles": "developer|administrator|member",
+    "sub_menu": []
+}, {
+    "title": "dashboard",
+    "href": "dashboard",
+    "param": "user",
+    "target": "",
+    "id": "",
+    "class": "",
+    "icon": "fa fa-tachometer-alt",
+    "roles": "developer|administrator|member",
+    "sub_menu": []
+}, {
+    "title": "settings",
+    "href": "#",
+    "param": "",
+    "target": "",
+    "id": "",
+    "class": "nav-header",
+    "icon": "",
+    "roles": "developer|administrator",
+    "sub_menu": []
+}, {
+    "title": "manage_users",
+    "href": "manage-users",
+    "param": "",
+    "target": "",
+    "id": "",
+    "class": "",
+    "icon": "fa fa-users",
+    "roles": "developer|administrator",
+    "sub_menu": []
+}, {
+    "title": "system_settings",
+    "href": "app-settings",
+    "param": "",
+    "target": "",
+    "id": "",
+    "class": "",
+    "icon": "fa fa-cogs",
+    "roles": "developer",
+    "sub_menu": []
+}]
